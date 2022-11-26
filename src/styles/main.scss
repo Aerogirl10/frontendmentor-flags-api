@@ -1,0 +1,34 @@
+@use "vars";
+@use "default.css";
+
+body{
+  background-color: vars.$dark-mode-bkg;
+}
+
+#main{
+
+  #flag-container
+  {
+  }
+
+}
+
+#flag-list
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  & .flag-item
+  {
+    padding: 20px;
+    & .flag
+    {
+      background-color: vars.$dark-mode-elements;
+    }
+
+    & .info
+    {
+
+    }
+
+  }
+}
